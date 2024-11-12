@@ -486,44 +486,44 @@
       const message = document.getElementById("message");
       let alphabets = /^[A-Za-z]+$/ ; 
       if (firstname.value.trim().length === 0 && lastname.value.trim().length === 0 && email.value.trim().length === 0 && phone.value.trim().length === 0 && subject.value.trim().length === 0 && message.value.trim().length === 0  ){
-       swal("Oops..." , "Будь ласка! Спочатку введіть облікові дані." , "error"); 
+       swal("Упсс..." , "Будь ласка! Спочатку введіть дані." , "error"); 
         return false ; 
       }
       if (firstname.value.trim().length === 0 ) {
-        swal("Oops..." , "Будь ласка! Введіть своє ім'я." , "error"); 
+        swal("Упсс..." , "Будь ласка! Введіть своє ім'я." , "error"); 
         return false ; 
       }
       if (!firstname.value.trim().match(alphabets) ){
-        swal("Oops..." , "Будь ласка! Введіть дійсне ім'я." , "error"); 
+        swal("Упсс..." , "Будь ласка! Введіть дійсне ім'я." , "error"); 
         return false; 
       }
       if(lastname.value.trim().length > 0 ) {
         if (!lastname.value.trim().match(alphabets) ){
-        swal("Oops..." , "Будь ласка! Введіть дійсне прізвище." , "error"); 
+        swal("Упсс..." , "Будь ласка! Введіть дійсне прізвище." , "error"); 
         return false; 
         }
       }
       if (email.value.trim().length === 0 ) {
-        swal("Oops..." , "Будь ласка! Введіть свою електронну адресу." , "error"); 
+        swal("Упсс..." , "Будь ласка! Введіть свою електронну адресу." , "error"); 
         return false ; 
       }
       if (!email.value.trim().includes("@gmail.com")) {
-        swal("Oops..." , "Будь ласка! Введіть дійсну адресу електронної пошти." , "error"); 
+        swal("Упсс..." , "Будь ласка! Введіть дійсну адресу електронної пошти." , "error"); 
         return false ; 
       }
       if ( phone.value.trim().length != 10 ||  isNaN(phone.value.trim()) ) {
-        swal("Oops..." , "Номер телефону повинен складатися з 10 цифр. " , "error"); 
+        swal("Упсс..." , "Номер телефону повинен складатися з 10 цифр. " , "error"); 
         return false ; 
       }
       if (subject.value.trim().length === 0 ) {
-        swal("Oops..." , "Будь ласка! Введіть тему." , "error"); 
+        swal("Упсс..." , "Будь ласка! Введіть тему." , "error"); 
         return false ; 
       }
       if (message.value.trim().length === 0 ) {
-        swal("Oops..." , "Будь ласка! Введіть повідомлення." , "error"); 
+        swal("Упсс..." , "Будь ласка! Введіть повідомлення." , "error"); 
         return false ; 
       }
-      swal("Congrats!", "Повідомлення успішно доставлено! Дякуємо за Вашу заявку.", "success");
+      swal("Вітаємо!", "Повідомлення успішно доставлено! Дякуємо за Вашу заявку.", "success");
       return true ; 
     }
 
