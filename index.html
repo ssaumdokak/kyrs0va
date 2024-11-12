@@ -172,10 +172,6 @@
   </li>
 </div>
 </ul>
-<form id="searchForm" class="d-flex">
-  <input class="form-control me-2" type="text" id="searchText" placeholder="Search" aria-label="Search">
-  <button class="btn btn-danger" type="submit">Пошук</button>
-</form>
 </div>
 </div>
 </nav>
@@ -3044,21 +3040,6 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="js/main-min.js"></script>
 
-
-<script>
-  document.getElementById('searchForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent the default form submission
-    
-    let searchText = document.getElementById('searchText').value; // Get the search input
-    if (searchText) {
-      // Handle the search logic here, e.g., display the search text or call an API
-      console.log("Searching for:", searchText);
-      // You can replace the above line with your own logic, e.g., redirecting or filtering data
-    } else {
-      console.log("Search input is empty.");
-    }
-  });
-</script>
                     
 
     <script>
