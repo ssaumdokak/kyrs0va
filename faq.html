@@ -46,7 +46,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-dark" id="header-nav">
       <div class="container-fluid">
-        <a class="navbar-brand" href="home.html"><img class="logo" src="Images/TheaterLogoFinal.png" alt="" width="30"
+        <a class="navbar-brand" href="index.html"><img class="logo" src="Images/TheaterLogoFinal.png" alt="" width="30"
             height="24"></a>
         <button id="nav" class="navbar-toggler" id="nav" style="background-color:#8b0000" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,65 +56,64 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              <a class="nav-link active s" aria-current="page" href="index.html" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='white'">Головна</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="movies.html">Movies</a>
+              <a class="nav-link " href="movies.html" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='white'">Фільми</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="web-series.html">Web Series</a>
+              <a class="nav-link " href="web-series.html" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='white'" >Серіали</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="kids.html">Kids</a>
+              <a class="nav-link" href="kids.html" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='white'">Аніме</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="tv.html">TV</a>
+              <a class="nav-link" href="tv.html"  onMouseOver="this.style.color='red'" onMouseOut="this.style.color='white'">ТВ-шоу</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="premium.html">Premium</a>
+              <a class="nav-link" href="premium.html"  onMouseOver="this.style.color='red'" onMouseOut="this.style.color='white'">Преміум</a>
             </li>
-            
+      
             <li class="nav-item">
-              <a class="nav-link" href="contactus.html">Contact Us</a>
+              <a class="nav-link" href="contactus.html"  onMouseOver="this.style.color='red'" onMouseOut="this.style.color='white'">Зв'язок з нами</a>
             </li>
             <li>
               <!-- Genre dropdown starts-->
               <div>
-                <div class="dropdown" style="position: relative; display: inline-block; padding-top: 5px; padding-left: 15px;">
+                <div class="dropdown" style="position: relative; disPlay: inline-block; padding-top: 5px; padding-left: 15px;">
                     <button class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton" style="font-size:20px;">
-                        Genres
+                        Жанри
                     </button>
                     <div class="dropdown-content" style="color: white;">
-                        <a href="popular.html">Popular</a>
-                        <a href="crime.html">Crime</a>
-                        <a href="suspense.html">Suspense & Thriller</a>
-                        <a href="action.html">Action</a>
-                        <a href="fantasy.html">Sci-Fi & Fantasy</a>
-                        <a href="documentary.html">Documentary</a>
-                        <a href="horror.html">Horror</a>
-                        <a href="drama.html">Drama</a>
-                        <a href="war.html">War & Politics</a>
-                        <a href="comedy.html">Comedy</a>
-                        <a href="romance.html">Romance</a>
-                        <a href="anime.html">Anime</a>
-                      </div>
-                </div>
-              </div>
-              <!-- Genre dropdown ends-->
-            </li>
-            <div style="position: relative; display: inline-block; padding-top: 5px; padding-left: 15px;">
-              <li>
-                <button  type="button" class="btn btn-light" onclick="logout()">Logout</button>
-              </li>
-            </div>
-          </ul>
-          <form id="searchForm" class="d-flex">
-            <input class="form-control me-2" type="text" id="searchText" placeholder="Search" aria-label="Search">
-            <button class="btn btn-danger" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-      </nav>
+<a href="popular.html">Популярне</a>
+<a href="crime.html">Кримінал</a>
+<a href="suspense.html">Трилери</a>
+<a href="action.html">Екшн</a>
+<a href="fantasy.html">Наукова фантастика та фентезі</a>
+<a href="documentary.html">Документальні</a>
+<a href="horror.html">Жахи</a>
+<a href="drama.html">Драми</a>
+<a href="war.html">Війна та політика</a>
+<a href="comedy.html">Комедії</a>
+<a href="romance.html">Романтика</a>
+<a href="anime.html">Аніме</a>
+
+</div>
+</div>
+<!-- Genre dropdown ends-->
+</li>
+<div style="position: relative; display: inline-block; padding-top: 5px; padding-left: 15px;">
+  <li>
+  </li>
+</div>
+</ul>
+<form id="searchForm" class="d-flex">
+  <input class="form-control me-2" type="text" id="searchText" placeholder="Search" aria-label="Search">
+  <button class="btn btn-danger" type="submit">Пошук</button>
+</form>
+</div>
+</div>
+</nav>
 
         <!-- navbar ends -->
 
@@ -174,14 +173,14 @@
       <!-------------------------------Footer-------------------------------->
     <footer class="footer">
       <hr class="footer-hr">
-      <div class="footer-content m-0">
+      <div class="footer-content">
         <div class="footer-left">
-          <a href="home.html"><img class="footer-logo" src="Images/TheaterLogoFinal.png" alt="" width="30"
+          <a href="index.html"><img class="footer-logo" src="Images/TheaterLogoFinal.png" alt="" width="30"
               height="24"></a>
-          <p class="footer-bottom-tagline">Watch! Chill! Repeat!</p>
+          <p class="footer-bottom-tagline">Дивіться та відочивайте!</p>
         </div>
         <div class="footer-middle">
-          <h2 class="footer-heading">Follow Us</h2>
+          <h2 class="footer-heading">Слідкуйте за нами</h2>
           <ul class="footer-middle-list icons">
             <a class="footer-links" href="https://www.facebook.com/" target="_blank"><i
                 class="fab fa-facebook-f facebook" style="color:red"></i></a>
@@ -196,37 +195,37 @@
           </ul>
         </div>
         <div class="footer-middle">
-          <h2 class="footer-heading">Services</h2>
+          <h2 class="footer-heading">Сервіси</h2>
           <ul class="footer-middle-list">
-            <li class="footer-middle-list-item"><a href="home.html">Enjoy Latest Movies</a> </li>
-            <li class="footer-middle-list-item"><a href="web-series.html">Watch Web-Series</a> </li>
-            <li class="footer-middle-list-item"><a href="kids.html">Everything for Kids</a> </li>
-            <li class="footer-middle-list-item"><a href="news.html">Coming soon</a> </li>
-            <li class="footer-middle-list-item"><a href="premium.html">Get Premium Subscription</a> </li>
+            <li class="footer-middle-list-item"><a href="index.html">Насолоджуйтесь останніми фільмами</a> </li>
+            <li class="footer-middle-list-item"><a href="web-series.html">Дивитися серіали</a> </li>
+            <li class="footer-middle-list-item"><a href="kids.html">Різноманітні аніме</a> </li>
+            <li class="footer-middle-list-item"><a href="news.html">Незабаром</a> </li>
+            <li class="footer-middle-list-item"><a href="premium.html">Отримайте преміум</a> </li>
             <li class="footer-middle-list-item"><a href="faq.html">FAQ</a> </li>
           </ul>
         </div>
-        <div class="footer-middle">
-          <h2 class="footer-heading">Try Our App</h2>
-          <ul class="footer-middle-list icons">
-            <a class="footer-links" href="#"><i class="fab fa-google-play" style="color:red"></i></a>
-            <a class="footer-links" href="#"><i class="fab fa-app-store-ios" style="color:red"></i></a>
-          </ul>
-        </div>
-        <div class="footer-right mt-0">
-          <p class="footer-links mb-0">
-          <h2 class="footer-heading d-flex">Contact Us</h2>
-          <p class="footer-bottom-tagline">Feel free to contact us.</p>
-          <a class="footer-contact-button" href="contactus.html">Contact</a>
+       <div class="footer-middle">
+                <h2 class="footer-heading">Наш застосунок</h2>
+                <ul class="footer-middle-list icons">
+                    <a class="footer-links" href="#"><i class="fab fa-google-play" style="color:red"></i></a>
+                    <a class="footer-links" href="#"><i class="fab fa-app-store-ios" style="color:red"></i></a>
+                </ul>
+            </div>
+        <div class="footer-right">
+          <p class="footer-links">
+          <h2 class="footer-heading">Зв'язок з нами</h2>
+          <p class="footer-bottom-tagline">Не соромтеся звертатися до нас.</p>
+          <a class="footer-contact-button" href="contactus.html">Контакт</a>
           </p>
         </div>
       </div>
       <hr class="footer-hr">
       <div class="footer-copyright">
-        <p>Copyright &copy; and &reg; Since
+        <p>Copyright &copy; and &reg; since
           <script>
             document.write(new Date().getFullYear())
-          </script> Under ApnaTheatre.com : (Project Is Done By Qazi Maaz Arshad)
+          </script> under Dalm`s.com : (project is done by Elvira Andriushchenko)
         </p>
       </div>
     </footer>
